@@ -5,7 +5,7 @@ import { ContatosView } from './ContatosView'
 
 const App = () => (
     <View contentContainerStyle={styles.scrollView}>
-        <Text style={styles.titulo}>Ola Turma P&oacute;s-Univem!</Text>
+        <Text style={styles.titulo}>Ol&aacute; Turma P&oacute;s-Univem!</Text>
         <ContatosView />
     </View>
 );

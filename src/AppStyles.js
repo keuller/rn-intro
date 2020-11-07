@@ -10,8 +10,9 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 16,
         color: 'darkblue',
-        paddingTop: 4,
-        paddingBottom: 4
+        textAlign: 'center',
+        paddingTop: 10,
+        paddingBottom: 10
     }
 });
 

@@ -1,9 +1,10 @@
+
 const lista = [
     { 
         id: '12345',
         nome: 'Abdoral Gusmao da Silva',
         email: 'abdoral.gusmao@gmail.com',
-        foto: 'abdoral.jpg' 
+        foto: 'abdoral.jpg'
     }, { 
         id: '54321',
         nome: 'Eduardo Borges',
