@@ -3,14 +3,17 @@ import { StyleSheet } from 'react-native'
 const Styles = StyleSheet.create({
     container: {
         flex: 1,
+        paddingLeft: 2,
+        paddingRight: 2,
+        justifyContent: 'flex-start',
         flexDirection: 'column',
         width: '100%'
     },
     inputContainer: {
         flex: 1,
         flexDirection: 'row',
-        paddingTop: 2,
-        paddingBottom: 2
+        paddingTop: 4,
+        paddingBottom: 4,
     },
     input: {
         height: 40,
@@ -30,6 +33,7 @@ const Styles = StyleSheet.create({
         paddingTop: 6,
         paddingBottom: 6,
         width: '100%',
+        height: 38,
         borderRadius: 6
     },
     btnLabel: {

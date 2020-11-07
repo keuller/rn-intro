@@ -17,6 +17,13 @@ const imc = [
     }, {
         id: '34567',
         intervalo: {
+            minimo: 17.5,
+            maximo: 18.4
+        },
+        status: 'Magreza leve'
+    }, {
+        id: '456789',
+        intervalo: {
             minimo: 18.5,
             maximo: 24.9
         },
@@ -24,7 +31,7 @@ const imc = [
     }, {
         id: '456789',
         intervalo: {
-            minimo: 25.0,
+            minimo: 25,
             maximo: 29.9
         },
         status: 'Excesso de peso'
