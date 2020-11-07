@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './AppStyles';
-import { ScrollView, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { ContatosView } from './ContatosView'
 
 const App = () => (
-    <ScrollView contentContainerStyle={styles.scrollView}>
+    <View contentContainerStyle={styles.scrollView}>
         <Text style={styles.titulo}>Ola Turma P&oacute;s-Univem!</Text>
-    </ScrollView>
+        <ContatosView />
+    </View>
 );
 
 export default App;
