@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         color: 'darkblue',
         paddingTop: 4,
         paddingBottom: 4
-    }
+    },
 });
 
 export default styles;
